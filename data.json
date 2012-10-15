@@ -1,3 +1,4 @@
-{ peter: { paper_url: 'http://www.bailis.org/papers/explicit-socc2012.pdf'},
-  adam: { paper_url: 'http://www.vldb.org/pvldb/vol5/frontmatterVol5No1.pdf'}
+{
+peter: { paper_url: 'http://www.bailis.org/papers/explicit-socc2012.pdf'},
+adam: { paper_url: 'http://www.vldb.org/pvldb/vol5/frontmatterVol5No1.pdf'}
 }
