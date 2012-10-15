@@ -4,6 +4,7 @@ $(document).ready(function() {
       $("#content").append(url)
       var disqus_shortname = 'weviewer'; // required: replace example with your forum shortname
       var disqus_identifier = url;
+      var disqus_url = url;
       var disqus_title = "This is a test 123";
 
       (function() {
