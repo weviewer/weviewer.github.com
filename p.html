@@ -4,6 +4,7 @@
 <link href='http://fonts.googleapis.com/css?family=Open+Sans:400italic,400' rel='stylesheet' type='text/css'>
 <script type="text/javascript" async="" src="http://www.google-analytics.com/ga.js"></script><script id="twitter-wjs" src="//platform.twitter.com/widgets.js"></script>
 <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.8.2/jquery.min.js"></script>
+<script src="weviewer.js"></script>
 </head>
 
 <body><div id="content">
@@ -11,15 +12,6 @@
 </div>
 
 <script type="text/javascript">
-$(document).ready(function() {
-  $.get('data.json', function(data) {
-    $("#content").append(data[window.location.hash].paper_url);
-  });
-});
-</script>
-
-<script type="text/javascript">
-
   var _gaq = _gaq || [];
 //  _gaq.push(['_setAccount', 'UA-30544743-1']);
   _gaq.push(['_trackPageview']);
